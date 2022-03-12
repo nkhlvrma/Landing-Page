@@ -1,0 +1,91 @@
+@import url(./fonts/satoshi.css);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    flex-direction: column;
+    font-family: "Satoshi";
+    color: #444444;
+}
+a{
+    color: #444444;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(202, 156, 5);
+}
+.header-container{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: "satoshi";
+    font-weight: 700;
+}
+.links{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+.left-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.right-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.content-container{
+    margin-top: 6%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.work img{
+    width: 500px;
+    height: 370px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 470px;
+}
+.work-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.two{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F1F1F1;
+    height: 80px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.footer-texts{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+}
